@@ -64,6 +64,7 @@
     "languages": [
       "en",
       "nl"
-    ]
+    ],
+    "herokuAppName": "myapp"
   }
 }

@@ -27,9 +27,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/myapp
-        username: myapp
-        password:
+        url: jdbc:postgresql://localhost:5432/myappdb
+        username: myappuser
+        password: myappuser1234
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
